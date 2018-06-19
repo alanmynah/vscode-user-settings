@@ -1,0 +1,98 @@
+{
+    "tslint.alwaysShowRuleFailuresAsWarnings": true,
+    "git.enableSmartCommit": true,
+    "tslint.autoFixOnSave": true,
+    "tsimporter.doubleQuotes": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.65,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "300",
+    "prettier.eslintIntegration": true,
+    // this isn't really underline-thin but we hack it to be a thicker cursor
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "solid",
+    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+    // you'll need to change this to an absolute path on your computer
+    // "vscode_custom_css.imports": [
+    //     "C:/Program Files/Microsoft VS Code/customcss/.vscodestyles.css"
+    //   ],
+    "editor.renderWhitespace": "all",
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#388E3C",
+        "list.activeSelectionForeground": "#388E3C",
+        "list.inactiveSelectionForeground": "#388E3C",
+        "list.highlightForeground": "#388E3C",
+        "scrollbarSlider.activeBackground": "#388E3C50",
+        "editorSuggestWidget.highlightForeground": "#388E3C",
+        "textLink.foreground": "#388E3C",
+        "progressBar.background": "#388E3C",
+        "pickerGroup.foreground": "#388E3C",
+        "tab.activeBorder": "#388E3C"
+    },
+    "[csharp]": {
+
+    },
+    "git.confirmSync": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "cSpell.userWords": [
+        "customcss",
+        "eslint",
+        "integration",
+        "prettier",
+        "restructuredtext",
+        "vscodestyles",
+        "vsicons"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "team.showWelcomeMessage": false,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Night Owl",
+    "gitlens.keymap": "alternate",
+    "workbench.startupEditor": "welcomePage",
+    "workbench.editor.enablePreview": false,
+    "window.restoreWindows": "all",
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        // these are for light background themes
+        // [
+        //     "Blue",
+        //     "Black",
+        //     "Purple"
+        // ],
+        [
+            "Gold",
+            "Orchid",
+            "LightSkyBlue"
+        ],
+        "Red"
+    ],
+    "gitlens.historyExplorer.enabled": true,
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.extraPaths": [
+        // "C:\\Users\\__PUT_USER_FOLDER_HERE\\AppData\\Local\\Programs\\Python\\Python36-32\\Lib\\site-packages\\"
+    ],
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+}
