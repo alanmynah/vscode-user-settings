@@ -1,0 +1,39 @@
+on Machine A, open git-bash and run:
+
+code --list-extensions | xargs -L 1 echo code --install-extension
+
+to install on machine B, just paste the output.
+current output is:
+
+code --install-extension bierner.markdown-checkbox
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension christian-kohler.path-intellisense
+code --install-extension cmstead.jsrefactor
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension eg2.tslint
+code --install-extension eg2.vscode-npm-script
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension Gimly81.matlab
+code --install-extension GregorBiswanger.json2ts
+code --install-extension loiane.ts-extension-pack
+code --install-extension mikestead.dotenv
+code --install-extension ms-azuretools.vscode-cosmosdb
+code --install-extension ms-python.python
+code --install-extension ms-vscode.node-debug2
+code --install-extension ms-vscode.PowerShell
+code --install-extension ms-vscode.typescript-javascript-grammar
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension pmneo.tsimporter
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension rcanedu.st
+code --install-extension ritwickdey.LiveServer
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension sdras.night-owl
+code --install-extension stringham.move-ts
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension wix.vscode-import-cost
